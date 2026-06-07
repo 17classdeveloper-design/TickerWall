@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TickerWall - Crypto Market on TV</title>
+  <meta name="description" content="TickerWall turns Apple TV into a read-only crypto market wall with live prices, charts, order book depth, and recent trades.">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #fff4e3;
+      --ink: #171923;
+      --muted: #686274;
+      --accent: #fcd535;
+      --green: #0ecb81;
+      --card: #fffaf0;
+      --line: #171923;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 88% 6%, rgba(14, 203, 129, .18), transparent 28rem),
+        radial-gradient(circle at 18% 0%, rgba(252, 213, 53, .28), transparent 28rem),
+        var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 56px 24px 72px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(44px, 8vw, 82px);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 52px 0 10px;
+      font-size: 30px;
+    }
+    h3 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+    p {
+      max-width: 780px;
+      color: var(--muted);
+      font-size: 18px;
+      margin: 0 0 16px;
+    }
+    a {
+      color: var(--ink);
+      font-weight: 800;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 32px;
+      align-items: center;
+    }
+    .badge {
+      display: inline-block;
+      margin-bottom: 18px;
+      padding: 8px 18px;
+      border: 3px solid var(--line);
+      border-radius: 999px;
+      background: var(--accent);
+      font-weight: 900;
+    }
+    .app-icon {
+      width: min(480px, 82vw);
+      border-radius: 36px;
+      box-shadow: 18px 18px 0 var(--line);
+      border: 4px solid var(--line);
+      justify-self: center;
+      background: var(--card);
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+    .links a {
+      padding: 12px 16px;
+      border: 3px solid var(--line);
+      border-radius: 12px;
+      background: var(--card);
+      text-decoration: none;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 18px;
+    }
+    .feature {
+      border: 3px solid var(--line);
+      border-radius: 18px;
+      background: var(--card);
+      padding: 18px;
+      box-shadow: 8px 8px 0 rgba(23, 25, 35, .22);
+    }
+    .shots-section {
+      margin-top: 48px;
+    }
+    .locale {
+      margin-top: 28px;
+    }
+    .locale-title {
+      display: inline-block;
+      padding: 7px 14px;
+      border: 3px solid var(--line);
+      border-radius: 999px;
+      background: var(--accent);
+      font-weight: 900;
+      margin-bottom: 14px;
+    }
+    .shots {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 14px;
+    }
+    .shots img {
+      width: 100%;
+      display: block;
+      border: 3px solid var(--line);
+      border-radius: 20px;
+      background: var(--card);
+      box-shadow: 8px 8px 0 rgba(23, 25, 35, .18);
+    }
+    footer {
+      margin-top: 56px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (max-width: 820px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+      .app-icon {
+        justify-self: start;
+      }
+      .feature-grid,
+      .shots {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div>
+        <span class="badge">APPLE TV</span>
+        <h1>TickerWall</h1>
+        <p>TickerWall turns Apple TV into a read-only crypto market wall for live prices, candlestick charts, order book depth, and recent trades.</p>
+        <div class="links">
+          <a href="support/">Support</a>
+          <a href="en/">Privacy Policy</a>
+          <a href="README.md">Publishing Notes</a>
+        </div>
+      </div>
+      <img class="app-icon" src="assets/app-icon/tickerwall-icon.png" alt="TickerWall app icon">
+    </section>
+
+    <section>
+      <h2>Crypto market on TV</h2>
+      <div class="feature-grid">
+        <div class="feature">
+          <h3>Live market wall</h3>
+          <p>Browse public spot market prices, 24-hour changes, and volume in a TV-friendly layout.</p>
+        </div>
+        <div class="feature">
+          <h3>Quote details</h3>
+          <p>Inspect charts, market stats, order book depth, and recent trades from one screen.</p>
+        </div>
+        <div class="feature">
+          <h3>Read-only by design</h3>
+          <p>No account, wallet, custody, brokerage, trading, or financial advice features.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="shots-section">
+      <h2>App Store Screenshots</h2>
+      <p>Localized Apple TV screenshots are included for English, Japanese, Korean, Simplified Chinese, and Traditional Chinese.</p>
+
+      <div class="locale">
+        <div class="locale-title">English</div>
+        <div class="shots">
+          <img src="assets/screenshots/en/01-markets.jpg" alt="TickerWall English markets screenshot">
+          <img src="assets/screenshots/en/02-detail.jpg" alt="TickerWall English quote detail screenshot">
+          <img src="assets/screenshots/en/03-search.jpg" alt="TickerWall English search screenshot">
+          <img src="assets/screenshots/en/04-settings.jpg" alt="TickerWall English settings screenshot">
+        </div>
+      </div>
+
+      <div class="locale">
+        <div class="locale-title">日本語</div>
+        <div class="shots">
+          <img src="assets/screenshots/ja/01-markets.jpg" alt="TickerWall Japanese markets screenshot">
+          <img src="assets/screenshots/ja/02-detail.jpg" alt="TickerWall Japanese quote detail screenshot">
+          <img src="assets/screenshots/ja/03-search.jpg" alt="TickerWall Japanese search screenshot">
+          <img src="assets/screenshots/ja/04-settings.jpg" alt="TickerWall Japanese settings screenshot">
+        </div>
+      </div>
+
+      <div class="locale">
+        <div class="locale-title">한국어</div>
+        <div class="shots">
+          <img src="assets/screenshots/ko/01-markets.jpg" alt="TickerWall Korean markets screenshot">
+          <img src="assets/screenshots/ko/02-detail.jpg" alt="TickerWall Korean quote detail screenshot">
+          <img src="assets/screenshots/ko/03-search.jpg" alt="TickerWall Korean search screenshot">
+          <img src="assets/screenshots/ko/04-settings.jpg" alt="TickerWall Korean settings screenshot">
+        </div>
+      </div>
+
+      <div class="locale">
+        <div class="locale-title">简体中文</div>
+        <div class="shots">
+          <img src="assets/screenshots/zh-Hans/01-markets.jpg" alt="TickerWall Simplified Chinese markets screenshot">
+          <img src="assets/screenshots/zh-Hans/02-detail.jpg" alt="TickerWall Simplified Chinese quote detail screenshot">
+          <img src="assets/screenshots/zh-Hans/03-search.jpg" alt="TickerWall Simplified Chinese search screenshot">
+          <img src="assets/screenshots/zh-Hans/04-settings.jpg" alt="TickerWall Simplified Chinese settings screenshot">
+        </div>
+      </div>
+
+      <div class="locale">
+        <div class="locale-title">繁體中文</div>
+        <div class="shots">
+          <img src="assets/screenshots/zh-Hant/01-markets.jpg" alt="TickerWall Traditional Chinese markets screenshot">
+          <img src="assets/screenshots/zh-Hant/02-detail.jpg" alt="TickerWall Traditional Chinese quote detail screenshot">
+          <img src="assets/screenshots/zh-Hant/03-search.jpg" alt="TickerWall Traditional Chinese search screenshot">
+          <img src="assets/screenshots/zh-Hant/04-settings.jpg" alt="TickerWall Traditional Chinese settings screenshot">
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      TickerWall displays public market information only. It is not financial advice.
+    </footer>
+  </main>
+</body>
+</html>
