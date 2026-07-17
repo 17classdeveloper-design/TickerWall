@@ -10,6 +10,8 @@ App Store Connect URLs:
 Recommended GitHub Pages URLs after publishing:
 
 - English: `https://17classdeveloper-design.github.io/TickerWall/en/`
+- German: `https://17classdeveloper-design.github.io/TickerWall/de/`
+- French: `https://17classdeveloper-design.github.io/TickerWall/fr/`
 - Japanese: `https://17classdeveloper-design.github.io/TickerWall/ja/`
 - Korean: `https://17classdeveloper-design.github.io/TickerWall/ko/`
 - Simplified Chinese: `https://17classdeveloper-design.github.io/TickerWall/zh-Hans/`
