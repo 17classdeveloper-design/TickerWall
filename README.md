@@ -16,3 +16,11 @@ Recommended GitHub Pages URLs after publishing:
 - Korean: `https://17classdeveloper-design.github.io/TickerWall/ko/`
 - Simplified Chinese: `https://17classdeveloper-design.github.io/TickerWall/zh-Hans/`
 - Traditional Chinese: `https://17classdeveloper-design.github.io/TickerWall/zh-Hant/`
+- Romanian: `https://17classdeveloper-design.github.io/TickerWall/ro/`
+- Ukrainian: `https://17classdeveloper-design.github.io/TickerWall/uk/`
+- Russian: `https://17classdeveloper-design.github.io/TickerWall/ru/`
+- Indonesian: `https://17classdeveloper-design.github.io/TickerWall/id/`
+- Turkish: `https://17classdeveloper-design.github.io/TickerWall/tr/`
+- Portuguese: `https://17classdeveloper-design.github.io/TickerWall/pt/`
+- Spanish: `https://17classdeveloper-design.github.io/TickerWall/es/`
+- Arabic: `https://17classdeveloper-design.github.io/TickerWall/ar/`
